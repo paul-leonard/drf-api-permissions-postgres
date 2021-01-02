@@ -6,7 +6,7 @@ A website and database to store a libary's collection of books was created using
 
 ## Release Info
 **Author**: Paul Leonard
-**Version**: 0.9.0
+**Version**: 1.0.0
 
 ## Overview
 A website and database to store a libary's collection of books was created using Django web and REST framework and containerized using Docker.  Permissions are established so that only book owners can modify the contents of the postgresql database.
@@ -16,7 +16,7 @@ Website, consisting of webpages and a postgresql database, created using the Dja
 
 ## Change Log
 **0.9.0** 12-22-2020 - Initial beta release
-**1.0.0** 11-TBD-2020 - Initial release
+**1.0.0** 1-2-2021 - Initial release
 
 
 ## Credits and Collaborations
@@ -29,7 +29,7 @@ Website, consisting of webpages and a postgresql database, created using the Dja
 - [x] Adjust project’s permissions so that only authenticated user’s have access to API.
 - [x] Add a custom permission so that only author of blog post can update or delete it.
 - [x] Add ability to switch user’s directly from browsable API.
-* Features - Docker *
+*Features - Docker*
 - [x] NOTE Refer to demo for built out Dockerfile and docker-compose.yml examples.
 - [x] create Dockerfile based off python:3.8-slim
 - [x] CHANGED FROM 3.8 TO 3.9 DUE TO BUILD PROBLEM FOR psycopg2 [community issue](https://github.com/psycopg/psycopg2/issues/1200)
